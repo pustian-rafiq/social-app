@@ -1,0 +1,59 @@
+.leftSidebar {
+  flex: 3;
+  height: calc(100vh - 50px);
+  /* calc er vitor minus er uvoi pase space na dile kaj korbe na */
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+}
+.leftSidebarWrapper {
+  padding: 20px;
+}
+.leftSidebarList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.leftSidebarListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.leftSidebarIcon {
+  margin-right: 10px;
+}
+.leftSidebarBtn {
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.leftSidebarHr {
+  margin: 20px 0;
+}
+.leftSidebarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.leftSidebarFriend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.leftSidebarFriendImg {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
